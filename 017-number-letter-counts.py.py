@@ -19,7 +19,7 @@ ten = [ "", "", "twenty ", "thirty ", "forty ",
   
 # n is 1- or 2-digit number 
 def numToWords(n, s): 
-  
+    
     str = ""; 
 
     
