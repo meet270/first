@@ -21,7 +21,7 @@ ten = [ "", "", "twenty ", "thirty ", "forty ",
 def numToWords(n, s): 
   
     str = ""; 
-      
+
     
     if (n > 19): 
         str += ten[n // 10] + one[n % 10]; 
@@ -31,7 +31,6 @@ def numToWords(n, s):
     
     if (n): 
         str += s; 
-  
     return str; 
   
 # Function to print a given number in words 
